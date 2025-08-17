@@ -1,6 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import FeatureList from "./FeatureList";
+import Footer from "./Footer";
+import brand from "../../../public/images/brand_image.png";
 
 const MainSection = () => {
   const features = [
@@ -23,6 +26,10 @@ const MainSection = () => {
         </h2>
         {/* Features */}
         <FeatureList items={features} />
+        {/* Mobile Footer above button */}
+        <div className="block lg:hidden">
+          <Footer />
+        </div>
         {/* Buttons */}
         <button
           className="
@@ -52,12 +59,19 @@ const MainSection = () => {
         >
           1-minute quiz for personalized Insights
         </p>
+        {/* Desktop Footer at bottom */}
+        <div className="hidden lg:block text-primaryText mt-4 ">
+          <Footer />
+        </div>
       </div>
 
       {/* Right Section */}
-      <div className="flex-1 flex justify-center">
-        <h2 className="text-lg font-semibold">Right art</h2>
-        {/* Replace with <Image /> or SVG later */}
+      <div className="flex-1 flex overflow-hidden">
+        <Image
+          src={brand}
+          alt="brandimage"
+          className="absolute w-[666px] h-[680px] top-[126px] left-[645px] opacity-100"
+        />
       </div>
     </section>
   );
