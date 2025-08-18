@@ -7,16 +7,16 @@ import brand from "../../../public/images/brand_image.png";
 
 const MainSection = () => {
   const features = [
-    "✨ Start growing your influence right away—-no waiting required!",
-    "✨ Create viral TikToks and Reels step by step with easy-to-follow lessons",
-    "✨ Use a Personal AI Worker to boost your content ",
-    "✨ Learn from expert-led courses designed for aspiring influencers",
+    "Start growing your influence right away—-no waiting required!",
+    "Create viral TikToks and Reels step by step with easy-to-follow lessons",
+    "Use a Personal AI Worker to boost your content ",
+    "Learn from expert-led courses designed for aspiring influencers",
   ];
   return (
     <section className="w-full max-w-7xl mx-auto flex items-center justify-between p-8">
       {/* Left Section */}
       <div className="flex-1 flex flex-col items-start justify-center">
-        <h2 className="text-2xl font-urbanist font-bold mb-4">
+        <h2 className="text-[35px] font-urbanist font-bold mb-2">
           Want to Turn Social Media Into a <br />
           Profitable Career?
         </h2>

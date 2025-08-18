@@ -6,10 +6,11 @@ type FeatureListProps = {
 
 const FeatureList: React.FC<FeatureListProps> = ({ items }) => {
   return (
-    <ul className="list-none pl-6 space-y-2 text-lg">
+    <ul className="list-none space-y-2 text-[16px] font-semibold mb-3">
       {items.map((item, index) => (
         <li key={index} className="leading-relaxed">
-          {item}
+          <span>✨</span>
+          <span className="pl-3">{item}</span>
         </li>
       ))}
     </ul>
