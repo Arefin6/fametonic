@@ -16,7 +16,7 @@ const MainSection = () => {
     <section className="w-full max-w-7xl mx-auto flex items-center justify-between p-8">
       {/* Left Section */}
       <div className="flex-1 flex flex-col items-start justify-center">
-        <h2 className="text-2xl font-bold mb-2">
+        <h2 className="text-2xl font-urbanist font-bold mb-4">
           Want to Turn Social Media Into a <br />
           Profitable Career?
         </h2>
@@ -66,11 +66,11 @@ const MainSection = () => {
       </div>
 
       {/* Right Section */}
-      <div className="flex-1 flex overflow-hidden">
+      <div className="overflow-hidden">
         <Image
           src={brand}
           alt="brandimage"
-          className="absolute w-[666px] h-[680px] top-[126px] left-[645px] opacity-100"
+          className="absolute w-[666px] lg:h-[70%] top-[126px] lg:left-[55%] opacity-100"
         />
       </div>
     </section>
