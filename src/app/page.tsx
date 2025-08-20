@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Banner />
       <Navbar />
-      {/* <MainSection /> */}
+      <MainSection />
     </>
   );
 }
