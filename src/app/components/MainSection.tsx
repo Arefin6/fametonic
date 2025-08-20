@@ -61,7 +61,7 @@ const MainSection = () => {
                     shadow-[2px_2px_10px_0px_#00E7F9]
                     hover:opacity-90 
                     transition 
-                    my-4 pb-4"
+                    my-4 pb-4 hover:cursor-pointer"
         >
           Get Started
           <span className="inline-block ml-2 text-white text-[16px]">&gt;</span>
@@ -78,7 +78,7 @@ const MainSection = () => {
       </div>
 
       {/* Right Section */}
-      <div className="lg:w-165 flex-1 lg:flex-shrink justify-center lg:justify-start">
+      <div className="lg:w-160 flex-1 lg:flex-shrink justify-center lg:justify-start">
         <Image
           src={brand}
           alt="brandimage"
