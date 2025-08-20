@@ -10,7 +10,7 @@ const Footer = () => {
         <span className="inline-block">Subscription Terms</span>
       </p>
       <span className="text-[10px] flex-1">
-        Fametonic 2025 ©All Rights Reserved.
+        Fametonic 2025 ©All Rights Reserved
       </span>
     </footer>
   );
