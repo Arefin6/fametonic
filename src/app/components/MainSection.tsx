@@ -16,11 +16,10 @@ const MainSection = () => {
     <div
       className="w-full mx-auto max-w-7xl px-8 
   flex flex-col-reverse lg:flex-row 
-  items-center justify-between 
-  gap-y-8 lg:gap-x-8"
+  items-center justify-between"
     >
       {/* Left Section */}
-      <div className="flex-1 flex flex-col justify-center">
+      <div className="flex-1 flex flex-col">
         <h2
           className="lg:text-[35px] md:text-[25px]
          text-[20px]
@@ -79,11 +78,11 @@ const MainSection = () => {
       </div>
 
       {/* Right Section */}
-      <div className="flex-1 flex justify-center lg:justify-between">
+      <div className="lg:w-165 flex-1 lg:flex-shrink justify-center lg:justify-start">
         <Image
           src={brand}
           alt="brandimage"
-          className="lg:w-[65%] md:w-[70%] w-[80%]  lg:h-[30%] overflow-hidden object-contain"
+          className="lg:w-[65%] w-full h-auto overflow-hidden  object-contain"
         />
       </div>
     </div>
